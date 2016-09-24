@@ -37,7 +37,7 @@ It uses [Leaflet.draw](https://github.com/Leaflet/Leaflet.draw) ([demo](https://
 
 2. Create a new CartoDB dataset. The default dataset comes with the following fields: `{cartodb_id, the_geom, description, name}`
    Each row represents one submission from the map with the first field a unique id assigned by CartoDB to each geometry. `the_geom` is the geographic object. `description` is the user input description of the shape, and `name` is the user's name.
-3. In the view for the table, click on the "SQL" tab on the write to execute arbitrary SQL.  
+3. In the view for the table, click on the "SQL" tab on the right to execute arbitrary SQL.  
 ![Custom SQL tab](https://i.stack.imgur.com/HPEHG.png)
 4. Copy and paste the contents of `insert_function.sql` ([located here](insert_function.sql)) into the sql pane, and then modify the name of the table to be inserted:  
 	```
